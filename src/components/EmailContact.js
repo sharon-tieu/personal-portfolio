@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 
 import catpoint from "../assets/img/catpoint.jpeg"
 
-export const EmailContact = () => {
+export const Contact = () => {
   const form = useRef();
 
   const sendMessage = (e) => {

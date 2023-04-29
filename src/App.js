@@ -1,13 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Banner } from './components/Banner';
+import { About } from './components/About';
 import { NavBar } from './components/NavBar';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
-import { EmailContact } from './components/EmailContact';
-// import { Contact } from './components/Contact';
-import { About } from './components/About';
-// import { Contactform } from './components/Contactform';
+import { Contact } from './components/EmailContact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -18,9 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      {/* <Contactform /> */}
-      {/* <Contact /> */}
-      <EmailContact />
+      <Contact />
     </div>
   );
 }
