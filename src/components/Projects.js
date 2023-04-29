@@ -1,8 +1,7 @@
 import { Container, Col, Row } from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
-import javascript from '../assets/img/javascript-plain.svg';
-import html from '../assets/img/html.svg';
-import css from '../assets/img/css3.svg';
+import project1 from '../assets/img/project1.png';
+import project2 from '../assets/img/project2.png';
 
 export const Projects = () => {
   const responsive = {
@@ -28,19 +27,26 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <div className="project-bx">
+            <div className="project-bx mb-3">
               <h1>
                 Projects
               </h1>
+              <p>To learn more about my projects, please visit the site or the corresponding GitHub pages or download my resume. Thank you!</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <img src={javascript} alt="Skill 1" />
+                  <a href="https://dndfuze.ddapp.dev/" target="_blank" rel="noreferrer">
+                    <img src={project1} alt="Project: DnDFuze" className="project-screenshot" />
+                  </a>
                 </div>
                 <div className="item">
-                  <img src={html} alt="Skill 2" />
+                  <a href="https://github.com/sharon-tieu/ajax--project" target="_blank" rel="noreferrer">
+                    <img src={project2} alt="Project: The World of Studio Ghibli" className="project-screenshot"/>
+                  </a>
                 </div>
                 <div className="item">
-                  <img src={css} alt="Skill 3" />
+                  <a href="https://dndfuze.ddapp.dev/" target="_blank" rel="noreferrer">
+                    <img src={project1} alt="Project: DnDFuze" className="project-screenshot" />
+                  </a>
                 </div>
               </Carousel>
             </div>
