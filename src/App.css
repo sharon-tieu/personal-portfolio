@@ -1,3 +1,7 @@
+.red-line {
+  border: 2px solid red;
+}
+
 /* CUSTOM FONTS */
 @font-face {
   font-family: Centra;
@@ -239,6 +243,11 @@ span.navbar-text {
   margin-top: 100px;
 }
 
+.jc-space {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .skills-icon {
   height: 150px;
   width: 120px;
@@ -339,6 +348,12 @@ span.navbar-text {
   height: 250px;
   width: 300px;
   border-radius: 12px;
+}
+
+/* ========== SKILLS ========== */
+.skill-label {
+  color: #5e5555;
+  font-weight: bold;
 }
 
 /* ========== PROJECTS ========== */

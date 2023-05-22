@@ -1,7 +1,16 @@
 import { Container, Row, Col } from "react-bootstrap";
 import headshot from '../assets/img/headshot.png';
 import Typewriter from "typewriter-effect";
+import * as FileSaver from 'file-saver';
+// eslint-disable-next-line
+import { saveAs } from 'file-saver';
 
+const handleResumeDownload = () => {
+  FileSaver.saveAs(
+    'https://media.licdn.com/dms/document/D562DAQHCoxHf-hhj8Q/profile-treasury-document-pdf-analyzed/0/1682829277525?e=1683763200&v=beta&t=m9v3rQgUfUr4hdDA0-Uoh69Qw3dAl1i00rRofd98Rqw',
+    'Sharon Tieu_Resume'
+  );
+}
 
 export const Banner = () => {
 
@@ -24,12 +33,13 @@ export const Banner = () => {
               />
             </h1>
             <p>based in Orange County, California</p>
-            {/* <img src={cute} alt="Cute Cat Icon" className="cat-icon" /> */}
             <button
               type="button"
               className="d-inline-flex p-2 btn btn-outline-secondary resume-btn"
-              target="_blank"
-              >Resume</button>
+              onClick={handleResumeDownload}
+              download="SharonTieu_Resume.pdf">
+              Resume
+            </button>
           </Col>
         </Row>
       </Container>

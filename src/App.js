@@ -5,7 +5,7 @@ import { About } from './components/About';
 import { NavBar } from './components/NavBar';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
-import { Contact } from './components/EmailContact';
+import { Contact } from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
