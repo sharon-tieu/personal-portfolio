@@ -25,7 +25,7 @@ export const About = () => {
           <Col xs={12} md={2} xl={3} className="text-align-left">
             <img src={sailormoon1} alt="Sailor Moon studying" className="about-icons" />
             <p>
-              As a Public Relations Coordinator, I wrote several press releases and blog articles announcing new software features, updates, and integrations. My interest in software originated from wanting to write better quality press releases. I knew that I had to research about software development if I wanted to write better! That's when I sought the software engineers in the company asked them about how software is built.
+              As a Public Relations Coordinator, I wrote several articles about our company's software. My interest in software originated from wanting to write better quality press releases. I knew that I had to research about software development if I wanted to write better! That's when I sought the software engineers in the company asked them about how software is built.
             </p>
           </Col>
           <Col xs={12} md={2} xl={3} className="text-align-left">

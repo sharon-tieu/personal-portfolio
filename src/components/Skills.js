@@ -44,31 +44,50 @@ export const Skills = () => {
               <h1>
                 Skills
               </h1>
-              <div className="item">
-                <img src={javascript} alt="Skill 1" className="skills-icon"/>
-                <img src={html} alt="Skill 2" className="skills-icon"/>
-                <img src={css} alt="Skill 2" className="skills-icon"/>
-                <img src={postgresql} alt="Skill 2" className="skills-icon"/>
-                <img src={express} alt="Skill 2" className="skills-icon"/>
+              <div className="item d-flex flex-row justify-content-center">
+                <div className="d-flex flex-column m-3">
+                  <img src={javascript} alt="Skill 1" className="skills-icon" />
+                  <p>Javascript</p>
+                </div>
+                <div className="d-flex flex-column m-3">
+                  <img src={html} alt="Skill 2" className="skills-icon" />
+                  <p>HTML</p>
+                </div>
+                <div className="d-flex flex-column m-3">
+                  <img src={css} alt="Skill 3" className="skills-icon" />
+                  <p>CSS</p>
+                </div>
+                <div className="d-flex flex-column m-3">
+                  <img src={postgresql} alt="Skill 4" className="skills-icon" />
+                  <p>PostgreSQL</p>
+                </div>
+                <div className="d-flex flex-column m-3">
+                  <img src={express} alt="Skill 5" className="skills-icon" />
+                  <p>express.js</p>
+                </div>
               </div>
-              <div className="item">
-                <img src={react} alt="Skill 2" className="skills-icon"/>
-                <img src={node} alt="Skill 2" className="skills-icon"/>
-                <img src={github} alt="Skill 1" className="skills-icon"/>
-                <img src={vscode} alt="Skill 2" className="skills-icon"/>
-                <img src={figma} alt="Skill 2" className="skills-icon"/>
+              <div className="item d-flex flex-row justify-content-center">
+                <div className="d-flex flex-column">
+                  <img src={react} alt="Skill 2" className="skills-icon m-3"/>
+                  <p>React.js</p>
+                </div>
+                <div className="d-flex flex-column">
+                  <img src={node} alt="Skill 2" className="skills-icon m-3"/>
+                  <p>Node.js</p>
+                </div>
+                <div className="d-flex flex-column">
+                  <img src={github} alt="Skill 1" className="skills-icon m-3"/>
+                  <p>github</p>
+                </div>
+                <div className="d-flex flex-column">
+                  <img src={vscode} alt="Skill 2" className="skills-icon m-3"/>
+                  <p>VSCode</p>
+                </div>
+                <div className="d-flex flex-column">
+                  <img src={figma} alt="Skill 2" className="skills-icon m-3"/>
+                  <p>Figma</p>
+                </div>
               </div>
-              {/* <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                <div className="item">
-                  <img src={javascript} alt="Skill 1" />
-                </div>
-                <div className="item">
-                  <img src={html} alt="Skill 2" />
-                </div>
-                <div className="item">
-                  <img src={css} alt="Skill 3" />
-                </div>
-              </Carousel> */}
             </div>
           </Col>
         </Row>

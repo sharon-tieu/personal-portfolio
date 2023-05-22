@@ -33,7 +33,6 @@ export const Banner = () => {
               />
             </h1>
             <p>based in Orange County, California</p>
-            {/* <img src={cute} alt="Cute Cat Icon" className="cat-icon" /> */}
             <button
               type="button"
               className="d-inline-flex p-2 btn btn-outline-secondary resume-btn"

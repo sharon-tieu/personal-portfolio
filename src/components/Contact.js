@@ -2,16 +2,12 @@ import React from 'react';
 import {Container} from 'react-bootstrap';
 import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-
-
 import catpoint from "../assets/img/catpoint.jpeg"
 
 export const Contact = () => {
   const form = useRef();
-
   const sendMessage = (e) => {
     e.preventDefault();
-    console.log('detected!');
 
     emailjs.sendForm('service_472w51b', 'template_fazgq2w', form.current, 'EoZGR7RtU0zZsdUIh')
       .then((result) => {
@@ -31,7 +27,6 @@ export const Contact = () => {
             <div className="card-body">
               <div className="row">
                 <div className="col-md-6 p-4">
-
                   <div className="form-group text-align-left mt-3">
                     <label className="mb-1">Full Name</label>
                     <input
@@ -41,7 +36,6 @@ export const Contact = () => {
                       name="userName"
                       required />
                   </div>
-
                   <div className="form-group text-align-left mt-3">
                     <label className="mb-1">Email</label>
                     <input
@@ -61,7 +55,6 @@ export const Contact = () => {
                       name="message"
                       required />
                   </div>
-
                   <div className="form-group d-flex flex-row-reverse text-align-right mt-3">
                     <button
                     className="btn btn-primary btn-sm"
@@ -69,12 +62,10 @@ export const Contact = () => {
                       Send Message
                     </button>
                   </div>
-
                 </div>
                 <div className="col-md-6">
                   <img src={catpoint} alt="Cat" className="cat-icon mt-5" />
                 </div>
-
               </div>
             </div>
           </div>
