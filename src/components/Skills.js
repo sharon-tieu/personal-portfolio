@@ -10,11 +10,6 @@ import node from '../assets/img/nodejs.svg';
 import github from '../assets/img/github.svg';
 import vscode from '../assets/img/vscode.svg';
 import figma from '../assets/img/figma.svg';
-// import meter1 from "../assets/img/meter1.svg";
-// import meter2 from "../assets/img/meter2.svg";
-// import meter3 from "../assets/img/meter3.svg";
-// import Carousel from "react-multi-carousel";
-// import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
   // const responsive = {
@@ -92,7 +87,6 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-left" src={colorSharp} alt=""/> */}
     </section>
   )
 }

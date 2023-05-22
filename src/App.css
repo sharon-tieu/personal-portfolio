@@ -344,6 +344,28 @@ span.navbar-text {
   margin-top: 110px;
 }
 
+/* ========== ABOUT ========== */
+
+.about-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about p {
+  text-align: left;
+}
+
+.about-cards {
+  border: 1px solid blue;
+  padding: 50px;
+  border-radius: 7px;
+}
+
+.about-labels {
+  text-align: left;
+}
+
 .about-icons {
   height: 250px;
   width: 300px;

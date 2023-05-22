@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import utaustin from '../assets/img/utaustin.png';
-import sailormoon1 from '../assets/img/sailormoon1.png';
-import sailormars1 from '../assets/img/sailormars1.jpeg';
-import sailormoon2 from '../assets/img/sailormoon2.gif';
+// import utaustin from '../assets/img/utaustin.png';
+// import sailormoon1 from '../assets/img/sailormoon1.png';
+// import sailormars1 from '../assets/img/sailormars1.jpeg';
+// import sailormoon2 from '../assets/img/sailormoon2.gif';
 
 export const About = () => {
   return (
@@ -11,11 +11,33 @@ export const About = () => {
         <Row>
           <Col>
             <div className="about-bx margin-bottom-20">
-              <h1>Who's Sharon?</h1>
+              <h1>Who is Sharon?</h1>
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row classname="about-container">
+          <Col>
+            <p className="about">
+              hi
+            </p>
+          </Col>
+          <Col>
+            <div className="d-flex flex-row">
+              <div className="about-cards">
+                <h2 className="about-labels">28</h2>
+                <small>WEEKS AT BOOTCAMP</small>
+              </div>
+              <div className="about-cards">
+                <h2 className="about-labels">150+</h2>
+                <small>HOURS OF CODING</small>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
+        {/* ===========ORIGINAL IS BELOW THIS =========== */}
+
+        {/* <Row>
           <Col xs={12} md={2} xl={3} className="text-align-left">
             <img src={utaustin} alt="University of Texas at Austin" className="about-icons" />
             <p>
@@ -40,7 +62,7 @@ export const About = () => {
               At bootcamp, I learned full-stack development and various web technologies. During my time here, I developed 2 personal projects. After successfully completing the program, I wanted to improve on my logic so I started picking up data structures and algorithms and I am polishing my projects and collaborate with other Junior Developers on weekly HTML and CSS challenges to maintain my technical skills.
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   )
