@@ -351,8 +351,9 @@ span.navbar-text {
 }
 
 /* ========== SKILLS ========== */
-.skills-labels {
-  justify-content: space-evenly;
+.skill-label {
+  color: #5e5555;
+  font-weight: bold;
 }
 
 /* ========== PROJECTS ========== */

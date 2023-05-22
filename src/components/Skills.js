@@ -47,45 +47,45 @@ export const Skills = () => {
               <div className="item d-flex flex-row justify-content-center">
                 <div className="d-flex flex-column m-3">
                   <img src={javascript} alt="Skill 1" className="skills-icon" />
-                  <p>Javascript</p>
+                  <p className="skill-label">Javascript</p>
                 </div>
                 <div className="d-flex flex-column m-3">
                   <img src={html} alt="Skill 2" className="skills-icon" />
-                  <p>HTML</p>
+                  <p className="skill-label">HTML</p>
                 </div>
                 <div className="d-flex flex-column m-3">
                   <img src={css} alt="Skill 3" className="skills-icon" />
-                  <p>CSS</p>
+                  <p className="skill-label">CSS</p>
                 </div>
                 <div className="d-flex flex-column m-3">
                   <img src={postgresql} alt="Skill 4" className="skills-icon" />
-                  <p>PostgreSQL</p>
+                  <p className="skill-label">PostgreSQL</p>
                 </div>
                 <div className="d-flex flex-column m-3">
                   <img src={express} alt="Skill 5" className="skills-icon" />
-                  <p>express.js</p>
+                  <p className="skill-label">express.js</p>
                 </div>
               </div>
               <div className="item d-flex flex-row justify-content-center">
                 <div className="d-flex flex-column">
                   <img src={react} alt="Skill 2" className="skills-icon m-3"/>
-                  <p>React.js</p>
+                  <p className="skill-label">React.js</p>
                 </div>
                 <div className="d-flex flex-column">
                   <img src={node} alt="Skill 2" className="skills-icon m-3"/>
-                  <p>Node.js</p>
+                  <p className="skill-label">Node.js</p>
                 </div>
                 <div className="d-flex flex-column">
                   <img src={github} alt="Skill 1" className="skills-icon m-3"/>
-                  <p>github</p>
+                  <p className="skill-label">github</p>
                 </div>
                 <div className="d-flex flex-column">
                   <img src={vscode} alt="Skill 2" className="skills-icon m-3"/>
-                  <p>VSCode</p>
+                  <p className="skill-label">VSCode</p>
                 </div>
                 <div className="d-flex flex-column">
                   <img src={figma} alt="Skill 2" className="skills-icon m-3"/>
-                  <p>Figma</p>
+                  <p className="skill-label">Figma</p>
                 </div>
               </div>
             </div>
