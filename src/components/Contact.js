@@ -70,6 +70,8 @@ export const Contact = () => {
             </div>
           </div>
         </form>
+        <p className="all-rights">
+          &#169; 2023 Sharon Tieu | All Rights Reserved</p>
       </Container>
     </section>
   )

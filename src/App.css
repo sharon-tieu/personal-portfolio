@@ -344,11 +344,57 @@ span.navbar-text {
   margin-top: 110px;
 }
 
+/* ========== ABOUT ========== */
+
+.about-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about p {
+  text-align: left;
+}
+
+.about-cards {
+  padding: 50px;
+}
+
+.about-labels {
+  text-align: left;
+  background-image: linear-gradient(to left, rgb(241, 48, 186), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.about-description {
+  background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.aboutme-description {
+  font-size: 16px;
+  background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.about-art {
+  height: 485px;
+  width: 680px;
+}
+
+.about-art:hover {
+  cursor: pointer;
+}
+
 .about-icons {
   height: 250px;
   width: 300px;
   border-radius: 12px;
 }
+
 
 /* ========== SKILLS ========== */
 .skill-label {
@@ -376,6 +422,11 @@ span.navbar-text {
 
 .send-btn {
   text-align: right;
+}
+
+.all-rights {
+  margin-top: 20px;
+  color: white;
 }
 
 /*

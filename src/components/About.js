@@ -1,8 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import utaustin from '../assets/img/utaustin.png';
-import sailormoon1 from '../assets/img/sailormoon1.png';
-import sailormars1 from '../assets/img/sailormars1.jpeg';
-import sailormoon2 from '../assets/img/sailormoon2.gif';
+// import utaustin from '../assets/img/utaustin.png';
+// import sailormoon1 from '../assets/img/sailormoon1.png';
+// import sailormars1 from '../assets/img/sailormars1.jpeg';
+// import sailormoon2 from '../assets/img/sailormoon2.gif';
+import art from '../assets/img/sharon-art.png';
 
 export const About = () => {
   return (
@@ -11,11 +12,50 @@ export const About = () => {
         <Row>
           <Col>
             <div className="about-bx margin-bottom-20">
-              <h1>Who's Sharon?</h1>
+              <h1>Who is Sharon?</h1>
             </div>
           </Col>
         </Row>
         <Row>
+          <Col className="d-flex justify-content-center align-items-center">
+            <p className="aboutme-description text-center col-9">
+              A motivated <b>front-end</b> web developer with a strong foundation in HTML, CSS, and JavaScript, seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
+            </p>
+          </Col>
+        </Row>
+        <Row classname="about-container">
+          <Col>
+            <div className="d-flex flex-row">
+              <div className="about-cards">
+                <h1 className="about-labels">28</h1>
+                <h5 className="about-description">WEEKS AT BOOTCAMP</h5>
+              </div>
+              <div className="about-cards">
+                <h1 className="about-labels">150+</h1>
+                <h5 className="about-description">HOURS OF CODING</h5>
+              </div>
+            </div>
+            <div className="d-flex flex-row">
+              <div className="about-cards">
+                <h1 className="about-labels">900+</h1>
+                <h5 className="about-description">Github Contributions</h5>
+              </div>
+              <div className="about-cards">
+                <h1 className="about-labels">235</h1>
+                <h5 className="about-description">Pokémon in the Pokédex</h5>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <p className="about">
+              <img src={art} alt="About_Image" className="about-art" />
+            </p>
+          </Col>
+        </Row>
+
+        {/* ===========ORIGINAL IS BELOW THIS =========== */}
+
+        {/* <Row>
           <Col xs={12} md={2} xl={3} className="text-align-left">
             <img src={utaustin} alt="University of Texas at Austin" className="about-icons" />
             <p>
@@ -40,7 +80,7 @@ export const About = () => {
               At bootcamp, I learned full-stack development and various web technologies. During my time here, I developed 2 personal projects. After successfully completing the program, I wanted to improve on my logic so I started picking up data structures and algorithms and I am polishing my projects and collaborate with other Junior Developers on weekly HTML and CSS challenges to maintain my technical skills.
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   )
