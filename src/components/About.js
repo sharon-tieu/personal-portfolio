@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import sailormoon1 from '../assets/img/sailormoon1.png';
 // import sailormars1 from '../assets/img/sailormars1.jpeg';
 // import sailormoon2 from '../assets/img/sailormoon2.gif';
+import art from '../assets/img/sharon-art.png';
 
 export const About = () => {
   return (
@@ -15,23 +16,40 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row classname="about-container">
+        <Row className="row-aboutme">
           <Col>
-            <p className="about">
-              hi
+            <p className="aboutme-description d-flex justify-content-center red-line">
+              A motivated <b>front-end</b> web developer with a strong foundation in HTML, CSS, and JavaScript, seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
             </p>
           </Col>
+        </Row>
+        <Row classname="about-container">
           <Col>
             <div className="d-flex flex-row">
               <div className="about-cards">
-                <h2 className="about-labels">28</h2>
-                <small>WEEKS AT BOOTCAMP</small>
+                <h1 className="about-labels">28</h1>
+                <h5 className="about-description">WEEKS AT BOOTCAMP</h5>
               </div>
               <div className="about-cards">
-                <h2 className="about-labels">150+</h2>
-                <small>HOURS OF CODING</small>
+                <h1 className="about-labels">150+</h1>
+                <h5 className="about-description">HOURS OF CODING</h5>
               </div>
             </div>
+            <div className="d-flex flex-row">
+              <div className="about-cards">
+                <h1 className="about-labels">900+</h1>
+                <h5 className="about-description">Github Contributions</h5>
+              </div>
+              <div className="about-cards">
+                <h1 className="about-labels">135</h1>
+                <h5 className="about-description">Pokemon in the Pokédex</h5>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <p className="about">
+              <img src={art} alt="About_Image" className="about-art" />
+            </p>
           </Col>
         </Row>
 

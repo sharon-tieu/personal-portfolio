@@ -357,13 +357,40 @@ span.navbar-text {
 }
 
 .about-cards {
-  border: 1px solid blue;
   padding: 50px;
-  border-radius: 7px;
 }
 
 .about-labels {
   text-align: left;
+  background-image: linear-gradient(to left, rgb(241, 48, 186), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.about-description {
+  background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.row-aboutme {
+  width: 80%;
+}
+
+.aboutme-description {
+  font-size: 18px;
+  background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
+  background-clip: text;
+  color: transparent;
+}
+
+.about-art {
+  height: 500px;
+  width: 690px;
+}
+
+.about-art:hover {
+  cursor: pointer;
 }
 
 .about-icons {
@@ -371,6 +398,7 @@ span.navbar-text {
   width: 300px;
   border-radius: 12px;
 }
+
 
 /* ========== SKILLS ========== */
 .skill-label {
@@ -398,6 +426,11 @@ span.navbar-text {
 
 .send-btn {
   text-align: right;
+}
+
+.all-rights {
+  margin-top: 20px;
+  color: white;
 }
 
 /*
