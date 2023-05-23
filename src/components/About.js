@@ -16,9 +16,9 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className="row-aboutme">
-          <Col>
-            <p className="aboutme-description d-flex justify-content-center red-line">
+        <Row>
+          <Col className="d-flex justify-content-center align-items-center">
+            <p className="aboutme-description text-center col-9">
               A motivated <b>front-end</b> web developer with a strong foundation in HTML, CSS, and JavaScript, seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
             </p>
           </Col>
@@ -41,8 +41,8 @@ export const About = () => {
                 <h5 className="about-description">Github Contributions</h5>
               </div>
               <div className="about-cards">
-                <h1 className="about-labels">135</h1>
-                <h5 className="about-description">Pokemon in the Pokédex</h5>
+                <h1 className="about-labels">235</h1>
+                <h5 className="about-description">Pokémon in the Pokédex</h5>
               </div>
             </div>
           </Col>
