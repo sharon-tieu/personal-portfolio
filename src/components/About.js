@@ -38,11 +38,11 @@ export const About = () => {
             <div className="d-flex flex-row">
               <div className="about-cards">
                 <h1 className="about-labels">900+</h1>
-                <h5 className="about-description">Github Contributions</h5>
+                <h5 className="about-description">GITHUB CONTRIBUTIONS</h5>
               </div>
               <div className="about-cards">
                 <h1 className="about-labels">235</h1>
-                <h5 className="about-description">Pokémon in the Pokédex</h5>
+                <h5 className="about-description">POKÉMON IN THE POKÉDEX</h5>
               </div>
             </div>
           </Col>

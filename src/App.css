@@ -371,6 +371,7 @@ span.navbar-text {
   background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
   background-clip: text;
   color: transparent;
+  text-align: left !important;
 }
 
 .aboutme-description {
