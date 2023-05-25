@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import utaustin from '../assets/img/utaustin.png';
-// import sailormoon1 from '../assets/img/sailormoon1.png';
-// import sailormars1 from '../assets/img/sailormars1.jpeg';
-// import sailormoon2 from '../assets/img/sailormoon2.gif';
 import art from '../assets/img/sharon-art.png';
+// import WOW from 'wowjs';
+// import 'animate.css';
+
 
 export const About = () => {
+
   return (
     <section className="about" id="about">
       <Container>
