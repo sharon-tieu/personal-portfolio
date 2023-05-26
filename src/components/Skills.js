@@ -12,21 +12,13 @@ import vscode from '../assets/img/vscode.svg';
 import figma from '../assets/img/figma.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 export const Skills = () => {
   useEffect( () => {
     AOS.init({ duration: 5000 });
   }, []);
 
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  }
   // const responsive = {
   //   desktop: {
   //     breakpoint: { max: 3000, min: 1024 },
@@ -55,10 +47,7 @@ export const Skills = () => {
                 Skills
               </h1>
               <div className="item d-flex flex-row justify-content-center">
-                <div className={`d-flex flex-column m-3 ${isHovered ? 'slide-up' : ''}`}
-                  onMouseEnter = { handleMouseEnter }
-                  onMouseLeave = { handleMouseLeave }
-                  >
+                <div className="d-flex flex-column m-3">
                   <img src={javascript} alt="Skill 1" className="skills-icon" data-aos="fade-right" />
                   <p className="skill-label">Javascript</p>
                 </div>
