@@ -391,10 +391,14 @@ span.navbar-text {
 .about-art {
   height: 485px;
   width: 680px;
+  position: relative;
+  top: 0;
+  transition: top ease 3s;
 }
 
-.about-art:hover {
+img:hover {
   cursor: pointer;
+  top: -10px;
 }
 
 .about-icons {
@@ -419,6 +423,8 @@ span.navbar-text {
   height: 150px;
   width: 120px;
   padding: 5px;
+  position: relative;
+    top: 0;
   transform: translateY(0);
   transition: transform 0.5s, opacity 0.5s;
 }
