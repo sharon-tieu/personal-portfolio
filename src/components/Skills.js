@@ -1,5 +1,5 @@
 import { Container, Col, Row } from 'react-bootstrap';
-// import "react-multi-carousel/lib/styles.css";
+import "react-multi-carousel/lib/styles.css";
 import javascript from '../assets/img/javascript-plain.svg';
 import html from '../assets/img/html.svg';
 import css from '../assets/img/css3.svg';
@@ -12,12 +12,21 @@ import vscode from '../assets/img/vscode.svg';
 import figma from '../assets/img/figma.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export const Skills = () => {
-  useEffect(() => {
-    AOS.init({duration: 5000});
+  useEffect( () => {
+    AOS.init({ duration: 5000 });
   }, []);
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  }
   // const responsive = {
   //   desktop: {
   //     breakpoint: { max: 3000, min: 1024 },
@@ -46,7 +55,10 @@ export const Skills = () => {
                 Skills
               </h1>
               <div className="item d-flex flex-row justify-content-center">
-                <div className="d-flex flex-column m-3">
+                <div className={`d-flex flex-column m-3 ${isHovered ? 'slide-up' : ''}`}
+                  onMouseEnter = { handleMouseEnter }
+                  onMouseLeave = { handleMouseLeave }
+                  >
                   <img src={javascript} alt="Skill 1" className="skills-icon" data-aos="fade-right" />
                   <p className="skill-label">Javascript</p>
                 </div>
