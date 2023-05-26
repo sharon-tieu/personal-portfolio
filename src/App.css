@@ -248,20 +248,6 @@ span.navbar-text {
   justify-content: space-evenly;
 }
 
-.skills-icon {
-  height: 150px;
-  width: 120px;
-  padding: 5px;
-  transform: translateY(0);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.skills-icon:hover {
-  cursor: pointer;
-  opacity: 1;
-  transform: translateY(-10%);
-}
-
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -370,7 +356,7 @@ span.navbar-text {
 
 .about-labels {
   text-align: left;
-  background-image: linear-gradient(to left, rgb(241, 48, 186), rgb(123, 72, 159));
+  background-image: linear-gradient(to left, rgb(241, 48, 186), rgb(168, 90, 224));
   background-clip: text;
   color: transparent;
 }
@@ -382,11 +368,24 @@ span.navbar-text {
   text-align: left !important;
 }
 
+.about-labels:hover {
+  background-image: linear-gradient(to left, rgb(41, 179, 207), rgb(255, 106, 235));
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+.about-description:hover {
+  cursor: pointer;
+}
+
 .aboutme-description {
   font-size: 16px;
   background-image: linear-gradient(to left, rgb(79, 72, 77), rgb(123, 72, 159));
   background-clip: text;
   color: transparent;
+  transform: translateY(0);
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .about-art {
@@ -404,11 +403,30 @@ span.navbar-text {
   border-radius: 12px;
 }
 
+.about-labels {
+  transform: translateY(0);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
 
 /* ========== SKILLS ========== */
 .skill-label {
   color: #5e5555;
   font-weight: bold;
+}
+
+.skills-icon {
+  height: 150px;
+  width: 120px;
+  padding: 5px;
+  transform: translateY(0);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.skills-icon:hover,
+.slide-up:hover{
+  cursor: pointer;
+  transform: translateY(-10);
 }
 
 /* ========== PROJECTS ========== */

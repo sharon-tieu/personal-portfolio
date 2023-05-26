@@ -1,10 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
 import art from '../assets/img/sharon-art.png';
-// import WOW from 'wowjs';
-// import 'animate.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 
 export const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 5000 });
+  }, []);
 
   return (
     <section className="about" id="about">
@@ -18,7 +21,7 @@ export const About = () => {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center align-items-center">
-            <p className="aboutme-description text-center col-9">
+            <p className="aboutme-description text-center col-9" data-aos="fade-down">
               A motivated <b>front-end</b> web developer with a strong foundation in HTML, CSS, and JavaScript. Seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
             </p>
           </Col>
@@ -27,28 +30,28 @@ export const About = () => {
           <Col>
             <div className="d-flex flex-row">
               <div className="about-cards">
-                <h1 className="about-labels">28</h1>
+                <h1 className="about-labels" data-aos="fade-right">28</h1>
                 <h5 className="about-description">WEEKS AT BOOTCAMP</h5>
               </div>
               <div className="about-cards">
-                <h1 className="about-labels">150+</h1>
+                <h1 className="about-labels" data-aos="fade-right">150+</h1>
                 <h5 className="about-description">HOURS OF CODING</h5>
               </div>
             </div>
             <div className="d-flex flex-row">
               <div className="about-cards">
-                <h1 className="about-labels">900+</h1>
+                <h1 className="about-labels" data-aos="fade-right">900+</h1>
                 <h5 className="about-description">GITHUB CONTRIBUTIONS</h5>
               </div>
               <div className="about-cards">
-                <h1 className="about-labels">235</h1>
+                <h1 className="about-labels" data-aos="fade-right">235</h1>
                 <h5 className="about-description">POKÉMON IN THE POKÉDEX</h5>
               </div>
             </div>
           </Col>
           <Col>
             <p className="about">
-              <img src={art} alt="About_Image" className="about-art" />
+              <img src={art} alt="About_Image" className="about-art" data-aos="fade-right" />
             </p>
           </Col>
         </Row>
