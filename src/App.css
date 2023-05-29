@@ -308,6 +308,29 @@ span.navbar-text {
   margin-left: 25px;
 }
 
+.download-btn {
+  width: 20rem;
+  border-color: #9785A8;
+  border-width: 2.5px;
+  border-radius: 90px;
+  /* text-align: right; */
+  box-shadow: 0px 1px 6px 1px rgba(113, 99, 99, 0.465);
+}
+
+.resume-label {
+  /* border: 2px solid #9285A8; */
+  width: 20rem;
+}
+
+.bi-circle-fill {
+  color: #9785A8;
+  position: relative;
+  left: 14px;
+  z-index: -1;
+  box-shadow: 0px 0px 2px 2px rgb(244, 10, 10);
+  border-radius: 60px;
+}
+
 .cat-icon {
   position: absolute;
   height: 300px;
