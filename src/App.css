@@ -259,15 +259,17 @@ span.navbar-text {
 
 .name-logo {
   height: 40px;
-  width: 40vh;
+  max-width: 400px;
+  @media only screen and (max-width: 1020px) {
+    height: 20px;
+  }
 }
 
 /* ========== BANNER ========== */
 .headshot-banner {
-  height: 70vh;
-  margin-top: 150px;
-  margin-left: 100px;
+  width: 75%;
   border-radius: 500px;
+  margin: 150px auto 0;
 }
 
 .banner h1 {
@@ -284,18 +286,8 @@ span.navbar-text {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
 }
 
-.banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
 
 .banner button svg {
   font-size: 25px;
@@ -306,6 +298,44 @@ span.navbar-text {
 
 .banner button:hover svg {
   margin-left: 25px;
+}
+
+.download-btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  align-items: center;
+  width: 100%;
+  border-style: none;
+  border-radius: 90px;
+  background-color: rgba(96, 22, 50, 0.375);
+  transition: ease-in 0.15s all;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+  background-color: rgba(96, 22, 50, 0.75);
+}
+
+.resume-label {
+  /* border: 2px solid #9285A8; */
+  width: 20rem;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.bi-circle-fill {
+  color: #9785A8;
+  position: relative;
+  left: 14px;
+  z-index: -1;
+  box-shadow: 0px 0px 2px 2px rgb(244, 10, 10);
+  border-radius: 60px;
 }
 
 .cat-icon {
