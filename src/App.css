@@ -146,6 +146,8 @@ nav.navbar .navbar-nav .nav-link .navbar-link {
   opacity: 0.75;
 }
 
+
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
@@ -230,12 +232,6 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-/*
-.social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
-*/
-
 .skill-bx,
 .about-bx,
 .project-bx {
@@ -308,8 +304,8 @@ span.navbar-text {
   align-items: center;
   width: 100%;
   border-style: none;
-  border-radius: 90px;
-  background-color: rgba(96, 22, 50, 0.375);
+  border-radius: 15px;
+  background-color: rgba(113, 76, 113, 0.73);
   transition: ease-in 0.15s all;
   max-width: 300px;
   margin: 0 auto;
@@ -317,7 +313,7 @@ span.navbar-text {
 
 .download-btn:hover {
   cursor: pointer;
-  background-color: rgba(96, 22, 50, 0.75);
+  background-color: rgba(113, 76, 113, 0.436);
 }
 
 .resume-label {
@@ -423,7 +419,7 @@ span.navbar-text {
   width: 680px;
   position: relative;
   top: 0;
-  transition: top ease 3s;
+  transition: top ease 2s;
 }
 
 img:hover {
@@ -456,13 +452,7 @@ img:hover {
   position: relative;
     top: 0;
   transform: translateY(0);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.skills-icon:hover,
-.slide-up:hover{
-  cursor: pointer;
-  transform: translateY(-10);
+  transition: transform 2s, opacity 0.5s;
 }
 
 /* ========== PROJECTS ========== */

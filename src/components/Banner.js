@@ -1,17 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import headshot from '../assets/img/headshot.png';
 import Typewriter from "typewriter-effect";
-// import * as FileSaver from 'file-saver';
 // eslint-disable-next-line
 import { saveAs } from 'file-saver';
-import resume from '../assets/files/resume.pdf';
+import ResumePortfolio from '../assets/files/resume-portfolio.pdf';
 
-// const handleResumeDownload = () => {
-//   FileSaver.saveAs(
-//     'https://media.licdn.com/dms/document/D562DAQHCoxHf-hhj8Q/profile-treasury-document-pdf-analyzed/0/1682829277525?e=1683763200&v=beta&t=m9v3rQgUfUr4hdDA0-Uoh69Qw3dAl1i00rRofd98Rqw',
-//     'Sharon Tieu_Resume'
-//   );
-// }
 
 export const Banner = () => {
 
@@ -24,7 +17,6 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={7}>
             <div>
-
                 <h3 className="tagline">Hi, I'm Sharon</h3>
                 <h1>
                   <Typewriter
@@ -35,8 +27,8 @@ export const Banner = () => {
                       }}
                   />
                 </h1>
-                <p>based in Orange County, California</p>
-                <a href={resume} className="text-decoration-none" target="_blank" rel="noreferrer">
+                <p>based in California and Texas</p>
+                <a href={ResumePortfolio} className="text-decoration-none" target="_blank" rel="noreferrer">
                   <button className="d-flex justify-content-center download-btn">
                     <span>Resume</span>
                     <svg xmlns="http://www.w3.org/2000/svg"
