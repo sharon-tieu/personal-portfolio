@@ -138,6 +138,15 @@ nav.navbar a.navbar-barnd {
 }
 
 /* ========== STYLING FOR LINKS ========== */
+.navbar-link {
+  transition: ease-in 0.15s all;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+  color: rgb(98, 88, 89) !important;
+}
+
 nav.navbar .navbar-nav .nav-link .navbar-link {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -145,8 +154,6 @@ nav.navbar .navbar-nav .nav-link .navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
-
-
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -158,19 +165,19 @@ span.navbar-text {
   align-items: center;
 }
 
-.navbar-text button {
+/* .navbar-text button {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
-    position: relative;
-    background-color: transparent;
-    transition: 0.3s ease-in-out;
-}
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+} */
 
-.navbar-text button::before {
+/* .navbar-text button::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -180,11 +187,7 @@ span.navbar-text {
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
-}
-
-.navbar-text button:hover {
-  color: #000000 !important;
-}
+} */
 
 .navbar-text button:hover::before {
     content: "";
