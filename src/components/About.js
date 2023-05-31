@@ -22,7 +22,7 @@ export const About = () => {
         <Row>
           <Col className="d-flex justify-content-center align-items-center">
             <p className="aboutme-description text-center col-9" data-aos="fade-down">
-              A motivated <b>front-end</b> web developer with a strong foundation in HTML, CSS, and JavaScript. Seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
+              A motivated <b>front-end web developer</b> with a strong foundation in HTML, CSS, and JavaScript. Seeking an entry-level or apprenticeship position to leverage technical skills and passion for creating visually appealing and user-friendly websites. Skilled in modern front-end frameworks and adept at problem-solving and collaborating in team environments.
             </p>
           </Col>
         </Row>
@@ -30,11 +30,11 @@ export const About = () => {
           <Col>
             <div className="d-flex flex-row">
               <div className="about-cards">
-                <h1 className="about-labels" data-aos="fade-right">28</h1>
+                <h1 className="about-labels" data-aos="fade-right">18</h1>
                 <h5 className="about-description">WEEKS AT BOOTCAMP</h5>
               </div>
               <div className="about-cards">
-                <h1 className="about-labels" data-aos="fade-right">150+</h1>
+                <h1 className="about-labels" data-aos="fade-right">800+</h1>
                 <h5 className="about-description">HOURS OF CODING</h5>
               </div>
             </div>
