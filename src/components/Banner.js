@@ -5,12 +5,12 @@ import Typewriter from "typewriter-effect";
 
 export const Banner = () => {
   const onDownload = () => {
-    fetch('SharonTieu_resume.pdf').then(response => {
+    fetch('Sharon_resume.pdf').then(response => {
       response.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
         let link = document.createElement('a');
         link.href = fileURL;
-        link.download = 'SharonTieu_resume.pdf';
+        link.download = 'Sharon_resume.pdf';
         link.click();
       })
     })
