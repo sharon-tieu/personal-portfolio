@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a8126f51.css",
-    "main.js": "/personal-portfolio/static/js/main.22bfa203.js",
+    "main.js": "/personal-portfolio/static/js/main.c956ee04.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/sharon-art.png": "/personal-portfolio/static/media/sharon-art.ab386ca24a4233a94dbf.png",
     "static/media/headshot.png": "/personal-portfolio/static/media/headshot.d973be4346e8a938d318.png",
     "static/media/project2.png": "/personal-portfolio/static/media/project2.6906f3c71ac52906a979.png",
     "static/media/project1.png": "/personal-portfolio/static/media/project1.e4af826d44c0d630518f.png",
-    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.cfe237ea30fdecf1ef95.pdf",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -29,11 +28,11 @@
     "static/media/figma.svg": "/personal-portfolio/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "static/media/css3.svg": "/personal-portfolio/static/media/css3.9f9bab23fe8488b899da76297c156c1a.svg",
     "main.a8126f51.css.map": "/personal-portfolio/static/css/main.a8126f51.css.map",
-    "main.22bfa203.js.map": "/personal-portfolio/static/js/main.22bfa203.js.map",
+    "main.c956ee04.js.map": "/personal-portfolio/static/js/main.c956ee04.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8126f51.css",
-    "static/js/main.22bfa203.js"
+    "static/js/main.c956ee04.js"
   ]
 }
