@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.a8126f51.css",
+    "main.js": "/personal-portfolio/static/js/main.22bfa203.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/sharon-art.png": "/personal-portfolio/static/media/sharon-art.ab386ca24a4233a94dbf.png",
+    "static/media/headshot.png": "/personal-portfolio/static/media/headshot.d973be4346e8a938d318.png",
+    "static/media/project2.png": "/personal-portfolio/static/media/project2.6906f3c71ac52906a979.png",
+    "static/media/project1.png": "/personal-portfolio/static/media/project1.e4af826d44c0d630518f.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.cfe237ea30fdecf1ef95.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/catpoint.jpeg": "/personal-portfolio/static/media/catpoint.4e242c7e3076516729c9.jpeg",
+    "static/media/logo.png": "/personal-portfolio/static/media/logo.dc8528b37bb8a5d29b20.png",
+    "static/media/postgresql.svg": "/personal-portfolio/static/media/postgresql.1cb80a024e0d7d39088c239d25120bbe.svg",
+    "static/media/revicons.eot": "/personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/react.svg": "/personal-portfolio/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/github.svg": "/personal-portfolio/static/media/github.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "static/media/nodejs.svg": "/personal-portfolio/static/media/nodejs.10c9e2aa0ca7edf36fceae25fec038a1.svg",
+    "static/media/javascript-plain.svg": "/personal-portfolio/static/media/javascript-plain.bacc3387f463f5b56f433827347c6155.svg",
+    "static/media/express.svg": "/personal-portfolio/static/media/express.4925c0127df8857c18b38329795ce88f.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/vscode.svg": "/personal-portfolio/static/media/vscode.f77a97004a86c353759ec29c8fc5eb69.svg",
+    "static/media/html.svg": "/personal-portfolio/static/media/html.9be87547580467a8277f24c79b387222.svg",
+    "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/figma.svg": "/personal-portfolio/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
+    "static/media/css3.svg": "/personal-portfolio/static/media/css3.9f9bab23fe8488b899da76297c156c1a.svg",
+    "main.a8126f51.css.map": "/personal-portfolio/static/css/main.a8126f51.css.map",
+    "main.22bfa203.js.map": "/personal-portfolio/static/js/main.22bfa203.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8126f51.css",
+    "static/js/main.22bfa203.js"
+  ]
+}
