@@ -29,9 +29,11 @@ export const NavBar = () => {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" className="name-logo"/>
-        </Navbar.Brand>
+        <Nav.Link href="#home">
+          <img src={logo} alt="Logo" className= {
+            activeLink === 'home name-logo' ? 'active navbar-link name-logo' : 'name-logo'
+          }/>
+        </Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggle-icon"></span>
         </Navbar.Toggle>
